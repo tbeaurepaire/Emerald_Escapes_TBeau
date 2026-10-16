@@ -1,0 +1,160 @@
+/* Color Palette: Emerald Green (#0E5A36), Sage (#88B04B), Gold Accent (#D4AF37), Soft Gray (#F4F7F4) */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+	   /* background: url('https://upload.wikimedia.org/wikipedia/commons/1/14/Irish_harp.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original') center/cover no-repeat;*/
+    background-color: #f4f7f4;
+    color: #2c3e50;
+    line-height: 1.6;
+}
+
+/* Header / Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0e5a36;
+    padding: 1rem 2rem;
+    color: white;
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.navbar nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+.navbar nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.navbar nav a.active,
+.navbar nav a:hover {
+    color: #d4af37;
+}
+
+/* Hero Section */
+.hero {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: green;
+    padding: 0 1rem;
+}
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}	
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+    max-width: 600px;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    background-color: #d4af37;
+    color: #0e5a36;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #f3cf55;
+}
+
+.btn-secondary {
+    background-color: #0e5a36;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: #093c24;
+}
+
+/* Sections */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem;
+    text-align: center;
+}
+
+.intro-section {
+    background-color: #ffffff;
+}
+
+.intro-section h2, .experiences-overview h2 {
+    color: #0e5a36;
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+}
+
+.subtitle {
+    color: #88b04b;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+/* Experience Cards */
+.card-grid {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+}
+
+.card {
+    background: white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    flex: 1;
+    min-width: 250px;
+    box-shadow: 2px 4px 6px #88b04b;
+    border-top: 4px solid #0e5a36;
+}
+
+.card h3 {
+    color: #0e5a36;
+    margin-bottom: 0.75rem;
+}
+
+.cta-wrapper {
+    margin-top: 1.5rem;
+}
+
+/* Footer */
+footer {
+    background-color: #0e5a36;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
